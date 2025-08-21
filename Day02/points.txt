@@ -1,0 +1,94 @@
+https://github.com/colkiran/Astrazeneca
+
+https://pythontutor.com/visualize.html#mode=edit
+
+
+Lists
+-----
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+append
+
+Dictionary
+----------
+also called as associative arrays
+
+index =  0    1    2    3    4    5
+array = 'a', 'b', 'c', 'd', 'e', 'f'
+
+associative_array => {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+0, 1, 2, 3, 4, 5 = > keys
+'a', 'b', 'c', 'd', 'e', 'f' => values
+
+emp = {'empid': 'EMP001', 'empname': 'Jack', 'dept': 'MKT', 'desig': 'MGR'}
+
+Dictionary
+----------
+1. Keys are always unique
+2. keys are user defined
+3. they are unordered collection (< 3.7)
+4. They are mutable
+5. they are enclosed in {k1: v1, k2: v2, k3: v3.....}
+
+
+functions to manipulate dictionaries
+------------------------------------
+clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+tuple
+-----
+1. immutable lists
+2. tuples are enclosed in ()
+
+
+set
+---
+1. sets are collection of unique values
+2. sets are unordered collection
+3. sets are not sub scriptable (no indexing)
+4. sets are mutable
+5. sets are enclosed in {1, 2, 3, 4, 5}
+
+
+Functions
+---------
+What is a function?
+reusability of code
+
+1. pass argument
+2. function return values
+3. recursive call
+
+Pass by value => passing the value of the variable  (immutable data)
+Pass by reference => passing the address of the variable (mutable data)
+
+
+lambdas => anonymous functions
+
+
+
+
+
+
+
+
+REST API
+--------
+API = Application Programming Interface
+
+get me a simple react component to perform CRUD operation on product table comprising columns like prodid as string, prodname as string, qty as integer, prodtype as string consumed from flask API and also fetch data into the component on load
+
+
+
+
+
+
+
+
+
+
+
+
+
+

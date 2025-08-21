@@ -1,0 +1,19 @@
+insert into products values ('PRD001', 'Pepsi', 500, '200 ml bottle')
+insert into products values ('PRD002', 'Coke', 150, '2 ltr  bottle')
+insert into products values ('PRD003', 'Sprite', 50, '1 ltr bottle')
+insert into products values ('PRD004', 'Maaza', 75, '500 ml bottle')
+insert into products values ('PRD005', 'Thumbsup', 30, '300 ml cans')
+
+
+# cursor.execute("create database productsdb")
+# query = """
+# create table products (
+# prodid varchar(7) PRIMARY KEY,
+# prodname varchar(50) NOT NULL,
+# qty integer NOT NULL,
+# prodtype varchar(50) NOT NULL
+# )
+# """
+# FL = open("products.txt", "r")
+# for line in FL.readlines():
+#     cursor.execute(line)
